@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "name": "Propnight Reloaded Wiki",
+  "baseUrl": "https://raw.githubusercontent.com/Propnight-Reloaded/Wiki/main",
+  "categories": [
+    {
+      "key": "intro",
+      "label": "Introduction",
+      "defaultOpen": true,
+      "pages": [
+        { "slug": "bienvenue", "title": "Bienvenue", "file": "01-introduction/01-bienvenue.md" },
+        { "slug": "architecture", "title": "Architecture du projet", "file": "01-introduction/02-architecture.md" },
+        { "slug": "protocole-reseau", "title": "Protocole réseau P2P", "file": "01-introduction/03-protocole-reseau.md" },
+        { "slug": "ue4ss-lua", "title": "UE4SS & injection Lua", "file": "01-introduction/04-ue4ss-lua.md" }
+      ]
+    },
+    {
+      "key": "install",
+      "label": "Guide d'installation",
+      "defaultOpen": true,
+      "pages": [
+        { "slug": "installer-launcher", "title": "Installer le launcher", "file": "02-installation/01-installer-launcher.md" },
+        { "slug": "lier-jeu", "title": "Lier ton jeu original", "file": "02-installation/02-lier-jeu.md" },
+        { "slug": "depannage-antivirus", "title": "Dépannage antivirus", "file": "02-installation/03-depannage-antivirus.md" },
+        { "slug": "problemes-reseau", "title": "Problèmes réseau / NAT", "file": "02-installation/04-problemes-reseau.md" }
+      ]
+    },
+    {
+      "key": "modding",
+      "label": "Création & Modding",
+      "defaultOpen": false,
+      "pages": [
+        { "slug": "maps-custom", "title": "Maps personnalisées (.pak)", "file": "03-modding/01-maps-custom.md" },
+        { "slug": "widgets-umg", "title": "Widgets UMG & UI", "file": "03-modding/02-widgets-umg.md" },
+        { "slug": "scripts-lua", "title": "Scripts Lua personnalisés", "file": "03-modding/03-scripts-lua.md" },
+        { "slug": "packaging-pak", "title": "Packaging & Cook Unreal", "file": "03-modding/04-packaging-pak.md" }
+      ]
+    },
+    {
+      "key": "faq",
+      "label": "FAQ & Légalité",
+      "defaultOpen": false,
+      "pages": [
+        { "slug": "faq", "title": "Questions fréquentes", "file": "04-faq/01-faq.md" },
+        { "slug": "legalite", "title": "Légalité & Éthique", "file": "04-faq/02-legalite.md" }
+      ]
+    }
+  ]
+}
