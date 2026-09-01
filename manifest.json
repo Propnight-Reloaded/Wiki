@@ -1,28 +1,18 @@
 {
-  "version": "1.0.0",
-  "name": "Propnight Reloaded Wiki",
+  "version": "2.0.0",
+  "name": "Propnight Reloaded Official Documentation",
   "baseUrl": "https://raw.githubusercontent.com/Propnight-Reloaded/Wiki/main",
   "categories": [
     {
-      "key": "intro",
-      "label": "Introduction",
+      "key": "player",
+      "label": "Guide du Joueur",
       "defaultOpen": true,
       "pages": [
-        { "slug": "bienvenue", "title": "Bienvenue", "file": "01-introduction/01-bienvenue.md" },
-        { "slug": "architecture", "title": "Architecture du projet", "file": "01-introduction/02-architecture.md" },
-        { "slug": "protocole-reseau", "title": "Protocole réseau P2P", "file": "01-introduction/03-protocole-reseau.md" },
-        { "slug": "ue4ss-lua", "title": "UE4SS & injection Lua", "file": "01-introduction/04-ue4ss-lua.md" }
-      ]
-    },
-    {
-      "key": "install",
-      "label": "Guide d'installation",
-      "defaultOpen": true,
-      "pages": [
-        { "slug": "installer-launcher", "title": "Installer le launcher", "file": "02-installation/01-installer-launcher.md" },
-        { "slug": "lier-jeu", "title": "Lier ton jeu original", "file": "02-installation/02-lier-jeu.md" },
-        { "slug": "depannage-antivirus", "title": "Dépannage antivirus", "file": "02-installation/03-depannage-antivirus.md" },
-        { "slug": "problemes-reseau", "title": "Problèmes réseau / NAT", "file": "02-installation/04-problemes-reseau.md" }
+        { "slug": "bienvenue", "title": "Bienvenue", "file": "01-guide-joueur/01-bienvenue.md" },
+        { "slug": "installation", "title": "Installation du jeu & launcher", "file": "01-guide-joueur/02-installation.md" },
+        { "slug": "jouer-en-ligne", "title": "Jouer en ligne & Commandes", "file": "01-guide-joueur/03-jouer-en-ligne.md" },
+        { "slug": "depannage-antivirus", "title": "Dépannage antivirus (Defender)", "file": "01-guide-joueur/04-depannage-antivirus.md" },
+        { "slug": "resolution-problemes", "title": "Résolution des problèmes réseau", "file": "01-guide-joueur/05-resolution-problemes.md" }
       ]
     },
     {
@@ -30,10 +20,22 @@
       "label": "Création & Modding",
       "defaultOpen": false,
       "pages": [
-        { "slug": "maps-custom", "title": "Maps personnalisées (.pak)", "file": "03-modding/01-maps-custom.md" },
-        { "slug": "widgets-umg", "title": "Widgets UMG & UI", "file": "03-modding/02-widgets-umg.md" },
-        { "slug": "scripts-lua", "title": "Scripts Lua personnalisés", "file": "03-modding/03-scripts-lua.md" },
-        { "slug": "packaging-pak", "title": "Packaging & Cook Unreal", "file": "03-modding/04-packaging-pak.md" }
+        { "slug": "maps-custom", "title": "Maps personnalisées (.pak)", "file": "02-creation-modding/01-maps-custom.md" },
+        { "slug": "logic-mods-blueprints", "title": "Blueprints & Widgets UMG", "file": "02-creation-modding/02-logic-mods-blueprints.md" },
+        { "slug": "scripts-lua-ue4ss", "title": "Scripts Lua UE4SS", "file": "02-creation-modding/03-scripts-lua-ue4ss.md" },
+        { "slug": "packaging-unreal", "title": "Packaging Unreal Engine", "file": "02-creation-modding/04-packaging-unreal.md" }
+      ]
+    },
+    {
+      "key": "architecture",
+      "label": "Architecture & Contribution",
+      "defaultOpen": false,
+      "pages": [
+        { "slug": "architecture-systeme", "title": "Architecture globale du système", "file": "03-architecture-contribution/01-architecture-systeme.md" },
+        { "slug": "steam-relay-daemon", "title": "Démon SteamRelay (Rust)", "file": "03-architecture-contribution/02-steam-relay-daemon.md" },
+        { "slug": "reverse-ue4ss-hooks", "title": "Reverse-Engineering & Hooks", "file": "03-architecture-contribution/03-reverse-ue4ss-hooks.md" },
+        { "slug": "shipgate-api", "title": "Serveur ShipGate & Mises à jour", "file": "03-architecture-contribution/04-shipgate-api.md" },
+        { "slug": "guide-contribution", "title": "Guide du contributeur", "file": "03-architecture-contribution/05-guide-contribution.md" }
       ]
     },
     {
@@ -41,8 +43,8 @@
       "label": "FAQ & Légalité",
       "defaultOpen": false,
       "pages": [
-        { "slug": "faq", "title": "Questions fréquentes", "file": "04-faq/01-faq.md" },
-        { "slug": "legalite", "title": "Légalité & Éthique", "file": "04-faq/02-legalite.md" }
+        { "slug": "faq", "title": "Questions fréquentes (FAQ)", "file": "04-faq-legalite/01-faq.md" },
+        { "slug": "legalite", "title": "Légalité & Éthique", "file": "04-faq-legalite/02-legalite.md" }
       ]
     }
   ]
