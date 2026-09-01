@@ -2,7 +2,7 @@
 
 Bienvenue sur le dépôt officiel de la documentation et du Wiki pour le projet **Propnight Reloaded**.
 
-Ce dépôt héberge l'ensemble des guides, spécifications techniques, manuels d'installation et tutoriels de modding pour la communauté.
+Ce dépôt est structuré selon les standards de l'industrie pour accueillir à la fois les **joueurs**, les **créateurs de contenu (moddeurs)** et les **développeurs/contributeurs**.
 
 ---
 
@@ -10,26 +10,28 @@ Ce dépôt héberge l'ensemble des guides, spécifications techniques, manuels d
 
 ```
 Wiki/
-├── 01-introduction/
-│   ├── 01-bienvenue.md          # Présentation du projet et philosophie
-│   ├── 02-architecture.md       # Architecture globale (pnr_launcher, SteamRelay, UE4SS)
-│   ├── 03-protocole-reseau.md   # Tunnel P2P Steamworks et NAT Traversal
-│   └── 04-ue4ss-lua.md          # Mod loader RE-UE4SS et injection mémoire
-├── 02-installation/
-│   ├── 01-installer-launcher.md # Téléchargement et premier lancement
-│   ├── 02-lier-jeu.md           # Détection et liaison du jeu Propnight original
-│   ├── 03-depannage-antivirus.md# Gestion des faux positifs Windows Defender
-│   └── 04-problemes-reseau.md   # Diagnostic réseau, pare-feu et latence
-├── 03-modding/
-│   ├── 01-maps-custom.md        # Création et installation de maps (.pak)
-│   ├── 02-widgets-umg.md        # Personnalisation des interfaces UMG
-│   ├── 03-scripts-lua.md        # Développement de scripts Lua UE4SS
-│   └── 04-packaging-pak.md      # Cuisson (cook) et packaging UnrealPak
-├── 04-faq/
-│   ├── 01-faq.md                # Questions fréquentes de la communauté
-│   └── 02-legalite.md           # Légalité, éthique et protection des ayants droit
-├── manifest.json                # Index structuré pour l'intégration web
-└── SUMMARY.md                   # Sommaire GitBook / Markdown
+├── 01-guide-joueur/
+│   ├── 01-bienvenue.md             # Présentation du projet et philosophie
+│   ├── 02-installation.md          # Téléchargement et installation du launcher
+│   ├── 03-jouer-en-ligne.md        # Commandes console en jeu, lobbys et invitations
+│   ├── 04-depannage-antivirus.md   # Gestion des faux positifs Windows Defender
+│   └── 05-resolution-problemes.md  # Diagnostic réseau, pare-feu et latence
+├── 02-creation-modding/
+│   ├── 01-maps-custom.md           # Création et installation de maps (.pak)
+│   ├── 02-logic-mods-blueprints.md # Mods Blueprints & widgets d'interface UMG
+│   ├── 03-scripts-lua-ue4ss.md     # Développement de scripts Lua avec RE-UE4SS
+│   └── 04-packaging-unreal.md      # Cook Unreal Engine 4.26 et UnrealPak
+├── 03-architecture-contribution/
+│   ├── 01-architecture-systeme.md  # Vue d'ensemble des 4 briques actives du projet
+│   ├── 02-steam-relay-daemon.md    # Démon local Rust, API HTTP 8080 & File IPC
+│   ├── 03-reverse-ue4ss-hooks.md   # Détail des hooks mémoire et émulation Goldberg
+│   ├── 04-shipgate-api.md          # Serveur de distribution et mises à jour Tauri v2
+│   └── 05-guide-contribution.md    # Workflow de développement, compilation et PRs
+├── 04-faq-legalite/
+│   ├── 01-faq.md                   # Questions fréquentes de la communauté
+│   └── 02-legalite.md              # Légalité, éthique et protection des ayants droit
+├── manifest.json                   # Index pour l'intégration automatique avec le site web
+└── SUMMARY.md                      # Sommaire GitBook / Markdown
 ```
 
 ---
@@ -37,7 +39,6 @@ Wiki/
 ## 🤝 Contribuer à la Documentation
 
 Les contributions de la communauté sont les bienvenues !
-1. Forkez le dépôt.
-2. Ajoutez ou améliorez les fichiers `.md` dans le dossier correspondant.
-3. Respectez l'en-tête YAML (frontmatter) en haut de chaque fichier.
-4. Ouvrez une Pull Request.
+1. Forkez le dépôt : `https://github.com/Propnight-Reloaded/Wiki`.
+2. Modifiez ou ajoutez vos fichiers `.md` avec leur en-tête YAML.
+3. Ouvrez une Pull Request pour publication automatique sur le site vitrine.
