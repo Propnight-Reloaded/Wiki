@@ -23,7 +23,7 @@ Vous souhaitez contribuer au code source de Propnight Reloaded ? Ce guide décri
 ## Structure des Dépôts
 
 Clonez les dépôts dans un même dossier de travail :
-- `pnr_launcher/` : `npm run tauri dev`
+- `pnr_launcher/` : `pnpm tauri dev`
 - `SteamRelay/` : `cargo run -- --daemon --port 8080`
 - `Mods/` : Tests des scripts Lua dans le dossier de jeu
 - `Website/` : `pnpm dev`
