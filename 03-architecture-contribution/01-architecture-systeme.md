@@ -18,7 +18,7 @@ Propnight Reloaded repose sur une architecture décentralisée pour le trafic mu
 1. **`pnr_launcher`** (Tauri v2 + React 19) : L'orchestrateur client. Gère SteamCMD, injecte UE4SS et Goldberg, lance SteamRelay en arrière-plan et gère les mises à jour signées.
 2. **`SteamRelay`** (Rust + Tokio) : Le démon local traduisant les sockets UDP du jeu en flux P2P Steamworks (NAT Traversal).
 3. **`Mods`** (Lua / UE4SS v3) : Les scripts injectés dans le runtime Unreal Engine (AuthBypass, RelayConnector, PartyManager).
-4. **`ShipGate`** (Node.js + Express + Docker) : Serveur portier (`shipgate.zekyro.dev`) gérant les signatures Minisign, l'auto-updater Tauri v2 et le proxy de releases privées GitHub.
+4. **`ShipGate`** (Node.js + Express + Docker) : Serveur portier (`shipgate.zekyro.dev`) plateforme de distribution : reçoit les builds de la CI, sert l'auto-updater Tauri v2 (signatures Minisign) et les téléchargements protégés par code.
 
 ## Diagramme des Flux Réseau
 

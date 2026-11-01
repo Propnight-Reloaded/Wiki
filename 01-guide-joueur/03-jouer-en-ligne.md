@@ -21,7 +21,7 @@ Pour héberger une partie :
   propnight_host abbey_main
   ```
   *(ou `host camp`, `host school`, `host farm`)*
-- Le démon `SteamRelay` passe automatiquement en mode hôte, enregistre le salon sur le Master Server et déclenche la transition `ClientTravel` locale vers la carte avec l'option `?listen`.
+- Le démon `SteamRelay` passe automatiquement en mode hôte, publie le salon sous forme de lobby Steam et déclenche la transition `ClientTravel` locale vers la carte avec l'option `?listen`.
 
 ## 2. Inviter et Rejoindre des Amis (Steam Overlay)
 
