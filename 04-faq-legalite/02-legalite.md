@@ -1,6 +1,6 @@
 ---
 title: "Légalité & Éthique"
-category: "FAQ & Légalité"
+category: "Légalité"
 slug: "legalite"
 description: "Explications sur le cadre légal du reverse-engineering pour l'interopérabilité et le respect de la propriété intellectuelle."
 lastRevision: "28.08.2026"

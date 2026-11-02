@@ -17,6 +17,4 @@
   * [Reverse-Engineering & Hooks](03-architecture-contribution/03-reverse-ue4ss-hooks.md)
   * [Serveur ShipGate & Mises à jour](03-architecture-contribution/04-shipgate-api.md)
   * [Guide du contributeur](03-architecture-contribution/05-guide-contribution.md)
-* [FAQ & Légalité](04-faq-legalite/01-faq.md)
-  * [Questions fréquentes](04-faq-legalite/01-faq.md)
-  * [Légalité & Éthique](04-faq-legalite/02-legalite.md)
+* [Légalité & Éthique](04-faq-legalite/02-legalite.md)
