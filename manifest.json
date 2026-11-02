@@ -39,11 +39,10 @@
       ]
     },
     {
-      "key": "faq",
-      "label": "FAQ & Légalité",
+      "key": "legal",
+      "label": "Légalité",
       "defaultOpen": false,
       "pages": [
-        { "slug": "faq", "title": "Questions fréquentes (FAQ)", "file": "04-faq-legalite/01-faq.md" },
         { "slug": "legalite", "title": "Légalité & Éthique", "file": "04-faq-legalite/02-legalite.md" }
       ]
     }

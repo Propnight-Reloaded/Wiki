@@ -28,7 +28,6 @@ Wiki/
 │   ├── 04-shipgate-api.md          # Serveur de distribution et mises à jour Tauri v2
 │   └── 05-guide-contribution.md    # Workflow de développement, compilation et PRs
 ├── 04-faq-legalite/
-│   ├── 01-faq.md                   # Questions fréquentes de la communauté
 │   └── 02-legalite.md              # Légalité, éthique et protection des ayants droit
 ├── manifest.json                   # Index pour l'intégration automatique avec le site web
 └── SUMMARY.md                      # Sommaire GitBook / Markdown
